@@ -1,0 +1,218 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    /*font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.header {
+    background: rgba(78,189,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+}
+
+.conteiner {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.conteiner_padding {
+    padding-bottom: 80px;
+}
+
+.logo {
+    margin-top: 60px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title {
+    font-weight: bold;
+    font-size: 37px;
+    color: #fff;
+    line-height: 49px;
+}
+
+.header_title span {
+    font-size: 59px;
+    line-height: 73px;
+}
+
+.header_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 414px;
+    margin-top: 30px;
+    line-height: 27px;
+}
+
+.header_btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    background-color: #ffd429;
+    display: block;
+    width: 220px;
+    text-align: center;
+    line-height: 55px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.header_logo {
+    position: relative;
+    left: 60px;
+}
+
+.section_dreams {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.section_title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.secion_blocks {
+    text-align: center;
+    margin-top: 70px;
+    width: 300px;
+}
+
+.secion_blocks_image {
+    margin-bottom: 30px;
+}
+
+.section_block_title{
+    font-size: 19px;
+}
+
+.section_block_text {
+    line-height: 22px;
+}
+
+.section_form {
+    background-color: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ticket_form {
+    margin-top: 60px;
+}
+
+.ticket_input {
+    display: block;
+    width: 340px;
+    color: #85828c;
+    border: 1px solid #85828c;
+    border-radius: 3px;
+    line-height: 45px;
+    margin: 0px auto 15px auto ; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ticket_btn {
+    display: block;
+    width: 340px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    background-color: #ffd429;
+    border: none;
+    text-align: center;
+    line-height: 55px;
+    margin: 0px auto ;
+}
+
+.header_btn:hover, .ticket_btn:hover{
+    background-color: #fde37a;
+    transition: all 0.5s ease;
+}
+
+.footer {
+    background-color: #164d7a;
+    padding: 40px 0px 40px 0px;
+}
+
+.footer_text {
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 1260px) {
+    .conteiner {
+        width: 960px;
+    }
+
+    .header_text {
+        width: 100%;
+    }
+
+    .header_logo {
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .conteiner {
+        width: 720px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .header_title {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .header_text {
+        text-align: center;
+    }
+
+    .header_btn {
+        margin: 40px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .conteiner {
+        width: 540px;
+    }
+    .header_logo {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .conteiner {
+        width: 90%;
+    }
+    .ticket_input, .ticket_btn{
+        width: 100%;
+    }
+    .secion_blocks {
+        width: 100%;
+    }
+}
