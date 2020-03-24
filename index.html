@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans|Ubuntu:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
     <title>С помощью верстки я создам ту жизнь, о которой мечтаю!</title>
 </head>
 <body>
@@ -12,32 +14,32 @@
         <div class="conteiner conteiner_padding">
             <img src="img/logo.png" class="logo"></a>
             <div class="wrapper">
-                <div>
+                <div class="animated fadeInLeft">
                     <h1 class="header_title">С помощью верстки я создам ту жизнь, о которой <span>мечтаю!</span></h1>
                     <p class="header_text">Мои стремления + настойчивость позволят мне достичь чего угодно. Я верю в это. Я знаю это на 100%. Меня не остановить!</p>
                     <a class="header_btn">Двигаться к мечте!</a>
                 </div>
                 <div>
-                    <img src="img/header.png" class="header_logo">
+                    <img src="img/header.png" class="header_logo animated fadeInRight">
                 </div>
             </div>
         </div>
     </header>
     <section class="section_dreams">
         <div class="conteiner">
-            <h2 class="section_title">Что меня ждет впереди</h2>
+            <h2 class="section_title animated">Что меня ждет впереди</h2>
             <div class="wrapper">
-                <div class="secion_blocks">
+                <div class="secion_blocks animated">
                     <img class="secion_blocks_image" src="img/icon.jpg">
                     <h3 class="section_block_title">Свободное время</h3>
                     <p class="section_block_text">Мне нужно свободное время на семью и самое настоящее</p>
                 </div>
-                <div class="secion_blocks">
+                <div class="secion_blocks animated">
                     <img class="secion_blocks_image" src="img/icon2.jpg">
                     <h3 class="section_block_title">Яркие путешествия</h3>
                     <p class="section_block_text">Работать откуда угодно - что может быть лучше?</p>
                 </div>
-                <div class="secion_blocks">
+                <div class="secion_blocks animated">
                     <img class="secion_blocks_image" src="img/icon3.jpg">
                     <h3 class="section_block_title">Создание ценности</h3>
                     <p class="section_block_text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
@@ -47,8 +49,8 @@
     </section>
     <section class="section_form">
         <div class="conteiner">
-            <h2 class="section_title">Форма заказа билета в будудщее</h2>
-            <form class="ticket_form" action="#">
+            <h2 class="section_title animated">Форма заказа билета в будудщее</h2>
+            <form class="ticket_form animated" action="#">
                 <input class="ticket_input" type="text" name="name" id="name" placeholder="Имя">
                 <input class="ticket_input" type="email" name="email" id="email" placeholder="E-mail">
                 <input class="ticket_input" type="tel" name="phone" id="phone" placeholder="Телефон">
@@ -62,5 +64,6 @@
             <p class="footer_text">© Все мои мечты защищены моим трудолюбием</p>
         </div>
     </footer>
+    <script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
